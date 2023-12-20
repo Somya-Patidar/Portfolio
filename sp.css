@@ -1,0 +1,259 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(0, 1, 26);
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/* NAVIGATION */
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+    font-family: 'PT Serif', serif;
+    background-color: rgb(12, 0, 51);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navbar ul li a{
+    margin: 20px;
+    padding: 12px;
+    text-decoration:none;
+    color: azure;
+}
+.navbar a:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(2, 5, 5);
+}
+.btn:hover{
+   
+    background-color: black;
+}
+.left{
+    font-size: 1.9rem;
+    color: white;
+}
+.mid{
+    font-size: 1.15rem;
+}
+
+/* HOME SECTION */
+#home{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+}
+
+
+.leftsec img{
+    margin: 30px 0px;
+    height: 500px;
+    width: 118%;
+    object-fit: cover;
+}
+.rightsec{
+    
+    align-items: center;
+    font-size: 2.2rem;
+    color: rgb(223, 223, 230);
+    border: 7px solid ;
+    border-color: rgb(252, 22, 22) transparent;
+   
+    padding-top: 30px;
+    margin: 80px -100px;
+    height: 195px;
+    width: 50%;
+}   
+/* ABOUT SECTION */
+#about{
+    display: flex;
+    height: 700px;
+    margin: 60px 0px;
+    
+}
+.abt-left img{
+    height: 650px;
+    width: 450px;
+    object-fit: cover;
+}
+.abt-left{
+    position: absolute;
+    left: 350px;
+}
+.container{
+    position: absolute;
+    top: 45px;
+    left: -70px;
+    border: 2px solid aquamarine;
+    background-color: aquamarine;
+    width: 67px;
+    height: 100px;
+}
+.abt-right{
+    position: absolute;
+    right: 200px;
+    width: 29%;
+    margin: 35px 60px;
+}
+.abt-right h1{
+    font-size: 2rem;
+    color: aquamarine;
+}
+.abt-right div{
+    font-size: 1.3rem;
+    margin: 40px 3px;
+    padding: 7px 8px;
+
+}
+.abt-right img{
+    height: 200px;
+    width: 200px;
+}
+/* SKILL SECTION */
+#skills::before{
+    content: "";
+    background: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/BEPO4d0Jgiur90ov1/videoblocks-background-frame-from-number-digits-blue-numbers-binary-code-on-dark-background-with-black-space-in-middle-screen-stream-binary-matrix-code-concept-of-coding-hacker-or-mining-bitcoin-cryptocurrency_hannaz6qw_thumbnail-1080_01.png")no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    z-index: -1;
+}
+#skills{
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px 0px;
+}
+.skill-left h1{
+    color: rgb(255, 174, 25);
+    margin-top: 300px ;
+    margin-left: 66px;
+    font-size: 3rem;
+}
+.skill-left div{
+    color: rgb(0, 0, 0);
+    margin: 20px 1px;
+    font-size: 1.5rem;
+    font-family: "Sofia", sans-serif;
+}
+.skill-right{
+    margin: 100px 2px;
+    font-size: 1.5rem;
+    /* font-weight: 100; */
+   
+    color: white;
+}
+.item2{
+    border: 2px solid rgb(20, 19, 19);
+    background-color:rgb(1, 155, 155);
+    font-weight: 2px;
+    color:black ;
+    margin: 40px 45px;
+    padding: 15px 22px;
+    border-radius: 9px;
+    font-family: 'PT Serif', serif;
+}
+.item3{
+    margin-top: -17px;
+     margin-left: 75px;
+}
+.item4{
+    padding: 2px 35px;
+    margin: 2px 59px;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    background-color: rgb(1, 155, 155);
+    border-radius: 7px;
+    font-family: 'PT Serif', serif;
+}
+/* PROJECT SECTION */
+#project{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    height: 580px;
+}
+.proj-left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.proj-right{
+    margin-top: 50px;
+}
+.proj-right h1{
+    font-size: 2.5rem;
+    margin: 10px 2px;
+}
+.proj-right ul li button{
+    margin: 10px 3px;
+    padding: 10px 70px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.proj-right ul li button:hover{
+    background-color: rgb(167, 163, 158);
+}
+/* FOOTER SECTION */
+footer{
+    background-color: rgb(77, 77, 148);
+    
+    width: 102%;
+}
+.footer{
+    height: 240px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .rights{
+    text-align: center;
+    margin-top: 6px;
+    
+    color: rgb(33, 33, 33);
+}
+.first{
+    width: 15%;
+    margin: 20px -200px;
+}
+.second {
+    font-size: 1.2rem;
+    margin:50px  50px;
+}
+.second ul li{
+    color: white;
+    list-style: none;;
+    margin: 28px 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITY CLASSES */
+.primary{
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+.secondary{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+.btn{
+    margin: -5px 10px;
+    padding: 5px 14px;
+    background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+}
