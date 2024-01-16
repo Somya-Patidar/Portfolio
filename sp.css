@@ -257,3 +257,81 @@ footer .rights{
     border-radius: 8px;
     cursor: pointer;
 }
+.sep{
+    height: 4px;
+    width: 270vw;
+    border: 2px solid black;
+    background-color: #585858;
+}
+.sepr{
+    height: 4px;
+    width: 270vw;
+    border: 2px solid black;
+    background-color: #585858;
+}
+
+
+@media only screen and (max-width:840px) {
+    .navbar{
+        flex-direction: column;
+        width: 235vw;
+    }
+    .left{
+        padding-top: 41px;
+    }
+    .mid{
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .right{
+        padding-top: 20px;
+        position: relative;
+        right: -385px;
+        top:-46px;
+    }
+    .leftsec img{
+        width: 430px;
+    }
+    .rightsec{
+        width: 93%;
+        height: 220px;
+        position:relative;
+        right: -224px;
+        margin: 85px -270px;
+    }
+    #about{
+        height: 770px;
+    }
+    .abt-left{
+        left: 72px;
+    }
+    .abt-right{
+        left: 545px;
+        width: 270px;
+    }
+    #skills{
+        position: absolute;
+        left: 18px;
+        width: 266%;
+    }
+    .sepr{
+        margin-top: 840px;
+    }
+    #project{
+        position: relative;
+        bottom: 120px;
+        width: 750px;
+    }
+    .proj-left{
+        margin-left: 95px;
+    }
+    
+    footer{
+        
+        width: 1016px;
+    }
+    footer .second{
+        font-size: small;
+        margin-left: 80px;
+    }
+}
